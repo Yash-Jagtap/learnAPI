@@ -1,0 +1,50 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: rgba(0, 0, 255, 0.397);
+    position: static;
+}
+
+.navbar-top{
+    position: fixed;
+    width: 100%;
+    font-family:  'Alfa Slab One', cursive;
+    /* padding-left: 10; */
+    background-color: blueviolet;
+    height: 65;
+    padding-top: 10;
+    /* padding-bottom: 10; */
+    font-size: 2em;
+
+}
+.navbar-text{
+    margin: 10px;
+    width: auto;
+    
+    /* padding: 10px; */
+}
+div.name{
+    position: relative;
+    float: left;
+    width: auto;
+}
+
+div.button{
+    /* margin-top: ; */
+    position: relative;
+    float: right;
+    padding: 0%;
+    margin-right: 10px;
+}
+button{
+    margin: 0%;
+
+}
+
+div#gif-show{
+   padding-top:65px ;
+   
+}
+li{
+    padding: 30px;
+}
