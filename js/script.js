@@ -34,6 +34,7 @@ $('#search').click(function(){
                 var response = this.responseText
                 var response = JSON.parse(this.responseText)
                 console.log(response.data)
+
                 showgif(response)
             }
             
@@ -81,7 +82,7 @@ function showgif(gifcontent){
         var title = gifcontent.data[index].title
         document.getElementById("gifs").innerHTML += '<li>'
                                                          + title +"<br>"
-                                                         +" <img src = " + url +" width = "+'200px' +"height = "+'200px'+""+"   >"
+                                                         +" <img src = " + url +" width = "+'200px' +"height = "+'200px'+""+"   >" + "</a>"
                                                          + '</li>'
         
     }
