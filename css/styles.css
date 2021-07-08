@@ -3,6 +3,7 @@ body{
     margin: 0;
     background-color: rgba(0, 0, 255, 0.397);
     position: static;
+    padding: 0;
 }
 
 .navbar-top{
